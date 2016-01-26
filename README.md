@@ -14,18 +14,17 @@ The license is [GNU GPL v2](https://www.gnu.org/licenses/gpl-2.0.txt)
 
 
 ##Usage
-I've included both the source and compiled library files in their respective folders
+Build the libraries and then run!
 
-
-###Building from source
+####Building the libraries
 
 ```
 $ cd source
-$ gcc -Wall -c *.c
+$ gcc -Wall -c *.c -O3
 $ ar -cvq liblwanmustache.a *.o
 ```
 
-###Using the Libraries
+####Running
 
 ```
 $ gcc -I'/location-of-the-cloned-repo/source' -o lwan-mustache lwan-mustache.c '/location-of-the-cloned-repo/compiled/liblwanmustache.a'

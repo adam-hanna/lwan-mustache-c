@@ -1,1 +1,1 @@
-Hello, {{ name }}!
+Hello, {{ name }}! My age is {{ age }}.
